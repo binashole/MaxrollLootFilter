@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>MR_Falconer_Explosive_Ballista</name>
+  <name>MR_Explosive_Ballista</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>10</filterIconColor>
   <description>1.0</description>
@@ -294,17 +294,19 @@
             <EquipmentType>BODY_ARMOR</EquipmentType>
           </type>
           <subTypes>
-            <int>42</int>
-            <int>31</int>
-            <int>30</int>
+            <int>69</int>
+            <int>68</int>
+            <int>51</int>
+            <int>50</int>
+            <int>66</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
             <int>25</int>
             <int>52</int>
-            <int>352</int>
-            <int>334</int>
+            <int>608</int>
+            <int>503</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
@@ -333,17 +335,19 @@
             <EquipmentType>BODY_ARMOR</EquipmentType>
           </type>
           <subTypes>
-            <int>42</int>
-            <int>31</int>
-            <int>30</int>
+            <int>69</int>
+            <int>68</int>
+            <int>51</int>
+            <int>66</int>
+            <int>50</int>
           </subTypes>
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
             <int>25</int>
             <int>52</int>
-            <int>352</int>
-            <int>334</int>
+            <int>608</int>
+            <int>503</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
