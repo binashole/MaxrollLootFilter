@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>MR_Primalist_Tornado_Lightning_Swarmblade_Endgame</name>
+  <name>MR_Lightning_Swarmblade</name>
   <filterIcon>7</filterIcon>
   <filterIconColor>4</filterIconColor>
   <description>1.0</description>
@@ -1178,46 +1178,6 @@
       <nameOverride>Wanted Relics (Strict)</nameOverride>
     </Rule>
     <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>338</int>
-            <int>541</int>
-            <int>660</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>High Value Affixes</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>UNIQUE SET</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride />
-    </Rule>
-    <Rule>
       <type>SHOW</type>
       <conditions>
         <Condition i:type="AffixCondition">
@@ -2144,6 +2104,46 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Tier 7 Exalteds</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>338</int>
+            <int>541</int>
+            <int>660</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>High Value Affixes</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE SET</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride />
     </Rule>
   </rules>
 </ItemFilter>
