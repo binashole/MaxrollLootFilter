@@ -136,9 +136,9 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>1</minLvl>
-      <maxLvl>45</maxLvl>
+      <maxLvl>35</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>Leveling Campaign Gear (45)  **Add wanted damage affixes**</nameOverride>
+      <nameOverride>Leveling Campaign Gear (35)  **Add wanted damage affixes**</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -159,9 +159,9 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>1</minLvl>
-      <maxLvl>45</maxLvl>
+      <maxLvl>35</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>Leveling Movement Speed (45)</nameOverride>
+      <nameOverride>Leveling Movement Speed (35)</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -192,9 +192,9 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>1</minLvl>
-      <maxLvl>90</maxLvl>
+      <maxLvl>80</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride> Early Monolith Idols (90) - **Add Wanted Idol Affixes**</nameOverride>
+      <nameOverride> Early Monolith Idols (80) - **Add Wanted Idol Affixes**</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -235,9 +235,9 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>1</minLvl>
-      <maxLvl>90</maxLvl>
+      <maxLvl>85</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride> Early Monolith Gear (90) - **Add Wanted Affixes**</nameOverride>
+      <nameOverride> Early Monolith Gear (85) - **Add Wanted Affixes**</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -278,9 +278,9 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>1</minLvl>
-      <maxLvl>90</maxLvl>
+      <maxLvl>85</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride> Early Monolith Gear (90) - **Add Wanted Affixes**</nameOverride>
+      <nameOverride> Early Monolith Gear (85) - **Add Wanted Affixes**</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1775,11 +1775,11 @@
             <EquipmentType>TWO_HANDED_AXE</EquipmentType>
             <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
             <EquipmentType>ONE_HANDED_AXE</EquipmentType>
-            <EquipmentType>WAND</EquipmentType>
             <EquipmentType>QUIVER</EquipmentType>
             <EquipmentType>BOW</EquipmentType>
             <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
             <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+            <EquipmentType>WAND</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -1842,11 +1842,11 @@
       </conditions>
       <color>9</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
+      <levelDependent>true</levelDependent>
+      <minLvl>35</minLvl>
+      <maxLvl>100</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>Crafting - Removal or Shatter **Add Wanted Afffixes**</nameOverride>
+      <nameOverride>Crafting (35-100) - Removal or Shatter **Add Wanted Afffixes**</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
