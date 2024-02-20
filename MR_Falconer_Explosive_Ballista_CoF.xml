@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>MR_Explosive_Ballista</name>
+  <name>MR_Falconer_Explosive_Ballista_CoF</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>10</filterIconColor>
-  <description>1.0</description>
+  <description>1.0 CoF</description>
   <lastModifiedInVersion>1.0.0.0</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
@@ -66,6 +66,32 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Experimental Affixes and Personal Items</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>15</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>All Idols</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -207,638 +233,6 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>HELMET</EquipmentType>
-          </type>
-          <subTypes>
-            <int>68</int>
-            <int>45</int>
-            <int>50</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>503</int>
-            <int>505</int>
-            <int>52</int>
-            <int>25</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>2</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>4</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>Wanted Helmets</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>HELMET</EquipmentType>
-          </type>
-          <subTypes>
-            <int>45</int>
-            <int>50</int>
-            <int>68</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>52</int>
-            <int>25</int>
-            <int>503</int>
-            <int>505</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>3</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Helmets (STRICT)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-          </type>
-          <subTypes>
-            <int>69</int>
-            <int>68</int>
-            <int>51</int>
-            <int>50</int>
-            <int>66</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>25</int>
-            <int>52</int>
-            <int>608</int>
-            <int>503</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>Wanted Body Armor</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-          </type>
-          <subTypes>
-            <int>69</int>
-            <int>68</int>
-            <int>51</int>
-            <int>66</int>
-            <int>50</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>25</int>
-            <int>52</int>
-            <int>608</int>
-            <int>503</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>3</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Body Armor (Strict)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BELT</EquipmentType>
-          </type>
-          <subTypes>
-            <int>10</int>
-            <int>8</int>
-            <int>7</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>52</int>
-            <int>36</int>
-            <int>75</int>
-            <int>12</int>
-            <int>26</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>Wanted Belts</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BELT</EquipmentType>
-          </type>
-          <subTypes>
-            <int>10</int>
-            <int>8</int>
-            <int>7</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>52</int>
-            <int>36</int>
-            <int>75</int>
-            <int>12</int>
-            <int>26</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>3</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Belts (STRICT)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BOOTS</EquipmentType>
-          </type>
-          <subTypes>
-            <int>6</int>
-            <int>10</int>
-            <int>5</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>28</int>
-            <int>36</int>
-            <int>25</int>
-            <int>503</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>Wanted Boots</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BOOTS</EquipmentType>
-          </type>
-          <subTypes>
-            <int>6</int>
-            <int>10</int>
-            <int>5</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>28</int>
-            <int>36</int>
-            <int>25</int>
-            <int>503</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>3</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Boots (STRICT)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>GLOVES</EquipmentType>
-          </type>
-          <subTypes>
-            <int>7</int>
-            <int>5</int>
-            <int>12</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>36</int>
-            <int>86</int>
-            <int>503</int>
-            <int>87</int>
-            <int>97</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Gloves</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>GLOVES</EquipmentType>
-          </type>
-          <subTypes>
-            <int>7</int>
-            <int>5</int>
-            <int>12</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>36</int>
-            <int>86</int>
-            <int>503</int>
-            <int>87</int>
-            <int>97</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>3</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Gloves (STRICT)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>AMULET</EquipmentType>
-          </type>
-          <subTypes>
-            <int>7</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>6</int>
-            <int>5</int>
-            <int>25</int>
-            <int>86</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Amulets</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>AMULET</EquipmentType>
-          </type>
-          <subTypes>
-            <int>7</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>6</int>
-            <int>5</int>
-            <int>25</int>
-            <int>86</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>3</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Amulets (STRICT)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>RING</EquipmentType>
-          </type>
-          <subTypes>
-            <int>7</int>
-            <int>8</int>
-            <int>10</int>
-            <int>4</int>
-            <int>3</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>503</int>
-            <int>507</int>
-            <int>87</int>
-            <int>92</int>
-            <int>97</int>
-            <int>19</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Rings</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>RING</EquipmentType>
-          </type>
-          <subTypes>
-            <int>7</int>
-            <int>8</int>
-            <int>10</int>
-            <int>4</int>
-            <int>3</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>503</int>
-            <int>507</int>
-            <int>87</int>
-            <int>92</int>
-            <int>97</int>
-            <int>19</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>3</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Rings (STRICT)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>RELIC</EquipmentType>
-          </type>
-          <subTypes>
-            <int>55</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>503</int>
-            <int>640</int>
-            <int>25</int>
-            <int>429</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Relics</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>RELIC</EquipmentType>
-          </type>
-          <subTypes>
-            <int>55</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>503</int>
-            <int>640</int>
-            <int>25</int>
-            <int>429</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>3</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>9</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="RarityCondition">
-          <rarity>MAGIC RARE EXALTED</rarity>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>50</minLvl>
-      <maxLvl>101</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>Wanted Relics (STRICT)</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1623,6 +1017,638 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Tier 7 Exalteds</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes>
+            <int>68</int>
+            <int>45</int>
+            <int>50</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>505</int>
+            <int>52</int>
+            <int>25</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>2</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>4</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Wanted Helmets</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes>
+            <int>45</int>
+            <int>50</int>
+            <int>68</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+            <int>25</int>
+            <int>503</int>
+            <int>505</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>3</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Helmets (STRICT)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes>
+            <int>69</int>
+            <int>68</int>
+            <int>51</int>
+            <int>50</int>
+            <int>66</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>52</int>
+            <int>608</int>
+            <int>503</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Wanted Body Armor</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes>
+            <int>69</int>
+            <int>68</int>
+            <int>51</int>
+            <int>66</int>
+            <int>50</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>25</int>
+            <int>52</int>
+            <int>608</int>
+            <int>503</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>3</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Body Armor (Strict)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes>
+            <int>10</int>
+            <int>8</int>
+            <int>7</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+            <int>36</int>
+            <int>75</int>
+            <int>12</int>
+            <int>26</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Wanted Belts</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes>
+            <int>10</int>
+            <int>8</int>
+            <int>7</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+            <int>36</int>
+            <int>75</int>
+            <int>12</int>
+            <int>26</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>3</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Belts (STRICT)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes>
+            <int>6</int>
+            <int>10</int>
+            <int>5</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+            <int>36</int>
+            <int>25</int>
+            <int>503</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Wanted Boots</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes>
+            <int>6</int>
+            <int>10</int>
+            <int>5</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+            <int>36</int>
+            <int>25</int>
+            <int>503</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>3</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Boots (STRICT)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes>
+            <int>7</int>
+            <int>5</int>
+            <int>12</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>36</int>
+            <int>86</int>
+            <int>503</int>
+            <int>87</int>
+            <int>97</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Gloves</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes>
+            <int>7</int>
+            <int>5</int>
+            <int>12</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>36</int>
+            <int>86</int>
+            <int>503</int>
+            <int>87</int>
+            <int>97</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>3</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Gloves (STRICT)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes>
+            <int>7</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>6</int>
+            <int>5</int>
+            <int>25</int>
+            <int>86</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Amulets</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes>
+            <int>7</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>6</int>
+            <int>5</int>
+            <int>25</int>
+            <int>86</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>3</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Amulets (STRICT)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes>
+            <int>7</int>
+            <int>8</int>
+            <int>10</int>
+            <int>4</int>
+            <int>3</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>507</int>
+            <int>87</int>
+            <int>92</int>
+            <int>97</int>
+            <int>19</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Rings</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes>
+            <int>7</int>
+            <int>8</int>
+            <int>10</int>
+            <int>4</int>
+            <int>3</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>507</int>
+            <int>87</int>
+            <int>92</int>
+            <int>97</int>
+            <int>19</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>3</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Rings (STRICT)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes>
+            <int>55</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>640</int>
+            <int>25</int>
+            <int>429</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Relics</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes>
+            <int>55</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>640</int>
+            <int>25</int>
+            <int>429</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
+          <minOnTheSameItem>3</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>9</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>MAGIC RARE EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>50</minLvl>
+      <maxLvl>101</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Wanted Relics (STRICT)</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
