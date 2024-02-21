@@ -425,6 +425,20 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>63</int>
+            <int>30</int>
+            <int>6</int>
+            <int>719</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
       </conditions>
       <color>14</color>
       <isEnabled>true</isEnabled>
