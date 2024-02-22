@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-  <name>MR_Ballista</name>
+  <name>MR_Ballista_CoF</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>10</filterIconColor>
   <description>1.0 CoF</description>
@@ -953,8 +953,8 @@
           <affixes>
             <int>25</int>
             <int>52</int>
-            <int>352</int>
-            <int>334</int>
+            <int>536</int>
+            <int>503</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
@@ -994,8 +994,8 @@
           <affixes>
             <int>25</int>
             <int>52</int>
-            <int>352</int>
-            <int>334</int>
+            <int>536</int>
+            <int>503</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
@@ -1354,11 +1354,11 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>503</int>
-            <int>507</int>
-            <int>87</int>
+            <int>502</int>
             <int>92</int>
             <int>97</int>
             <int>19</int>
+            <int>45</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
@@ -1397,11 +1397,10 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>503</int>
-            <int>507</int>
-            <int>87</int>
             <int>92</int>
             <int>97</int>
             <int>19</int>
+            <int>45</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
