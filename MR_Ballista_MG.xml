@@ -1964,9 +1964,9 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>640</int>
-            <int>608</int>
-            <int>507</int>
+            <int>536</int>
             <int>679</int>
+            <int>36</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
