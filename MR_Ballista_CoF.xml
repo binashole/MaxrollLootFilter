@@ -1198,8 +1198,7 @@
             <int>36</int>
             <int>86</int>
             <int>503</int>
-            <int>87</int>
-            <int>97</int>
+            <int>502</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
@@ -1240,8 +1239,8 @@
             <int>36</int>
             <int>86</int>
             <int>503</int>
-            <int>87</int>
             <int>97</int>
+            <int>502</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
@@ -1965,9 +1964,9 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>640</int>
-            <int>608</int>
-            <int>507</int>
+            <int>536</int>
             <int>679</int>
+            <int>36</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
