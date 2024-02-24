@@ -3,8 +3,8 @@
   <name>Bina's Master Filter</name>
   <filterIcon>23</filterIcon>
   <filterIconColor>17</filterIconColor>
-  <description>BINA'S MASTER FILTER - You **MUST** select Affixes in SEVEN rules. These rules contain **ADD WANTED AFFIXES** in their description. Last updated - Feb 21 2024</description>
-  <lastModifiedInVersion>1.0.0.0</lastModifiedInVersion>
+  <description>BINA'S MASTER FILTER - You **MUST** select Affixes in EIGHT rules. These rules contain **ADD WANTED AFFIXES** in their description. Last updated - Feb 24 2024</description>
+  <lastModifiedInVersion>1.0.0.4</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -194,7 +194,38 @@
       <minLvl>1</minLvl>
       <maxLvl>80</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride> Early Monolith Idols (80) - **Add Wanted Idol Affixes**</nameOverride>
+      <nameOverride> Early Monolith Idols (80)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes />
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>0</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>16</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>1</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Early Build Idols - **Add Wanted Affixes**</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -235,9 +266,9 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>1</minLvl>
-      <maxLvl>85</maxLvl>
+      <maxLvl>65</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride> Early Monolith Gear (85) - **Add Wanted Affixes**</nameOverride>
+      <nameOverride> Early Monolith Gear (65) - **Add Wanted Affixes**</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -271,6 +302,49 @@
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
           <combinedComparsionValue>2</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>16</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>true</levelDependent>
+      <minLvl>1</minLvl>
+      <maxLvl>65</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride> Early Monolith Gear (65) - **Add Wanted Affixes**</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+            <int>36</int>
+            <int>28</int>
+            <int>27</int>
+            <int>10</int>
+            <int>45</int>
+            <int>7</int>
+            <int>97</int>
+            <int>676</int>
+            <int>677</int>
+            <int>678</int>
+            <int>679</int>
+            <int>673</int>
+            <int>674</int>
+            <int>675</int>
+            <int>710</int>
+            <int>711</int>
+            <int>712</int>
+            <int>713</int>
+            <int>714</int>
+            <int>715</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -1506,9 +1580,9 @@
       <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>0</minLvl>
-      <maxLvl>90</maxLvl>
+      <maxLvl>80</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>Exalteds (90) - Show All Exalteds</nameOverride>
+      <nameOverride>Exalteds (80) - Show All Exalteds</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
