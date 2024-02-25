@@ -1358,6 +1358,7 @@
             <int>97</int>
             <int>19</int>
             <int>45</int>
+            <int>330</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
@@ -1400,6 +1401,7 @@
             <int>97</int>
             <int>19</int>
             <int>45</int>
+            <int>330</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>3</comparsionValue>
