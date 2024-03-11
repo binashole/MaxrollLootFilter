@@ -3,7 +3,7 @@
   <name>Bina's Master Filter</name>
   <filterIcon>23</filterIcon>
   <filterIconColor>17</filterIconColor>
-  <description>BINA'S MASTER FILTER - You **MUST** select Affixes in EIGHT rules. These rules contain **ADD WANTED AFFIXES** in their description. Last updated - Mar 1 2024</description>
+  <description>BINA'S MASTER FILTER - You **MUST** select Affixes in SIX rules. These rules contain **ADD WANTED AFFIXES** in their description. Last updated - Mar 11 2024</description>
   <lastModifiedInVersion>1.0.2.1</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
