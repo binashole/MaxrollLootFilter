@@ -4,7 +4,7 @@
   <filterIcon>23</filterIcon>
   <filterIconColor>17</filterIconColor>
   <description>BINA'S MASTER FILTER - You **MUST** select Affixes in EIGHT rules. These rules contain **ADD WANTED AFFIXES** in their description. Last updated - Mar 1 2024</description>
-  <lastModifiedInVersion>1.0.1.2</lastModifiedInVersion>
+  <lastModifiedInVersion>1.0.2.1</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -226,92 +226,6 @@
       <maxLvl>100</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Early Build Idols - **Add Wanted Affixes**</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>52</int>
-            <int>36</int>
-            <int>28</int>
-            <int>27</int>
-            <int>45</int>
-            <int>7</int>
-            <int>10</int>
-            <int>97</int>
-            <int>676</int>
-            <int>677</int>
-            <int>678</int>
-            <int>679</int>
-            <int>673</int>
-            <int>674</int>
-            <int>675</int>
-            <int>710</int>
-            <int>711</int>
-            <int>712</int>
-            <int>713</int>
-            <int>714</int>
-            <int>715</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
-          <combinedComparsionValue>4</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>16</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>1</minLvl>
-      <maxLvl>65</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride> Early Monolith Gear (65) - **Add Wanted Affixes**</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>52</int>
-            <int>36</int>
-            <int>28</int>
-            <int>27</int>
-            <int>45</int>
-            <int>7</int>
-            <int>10</int>
-            <int>97</int>
-            <int>676</int>
-            <int>677</int>
-            <int>678</int>
-            <int>679</int>
-            <int>673</int>
-            <int>674</int>
-            <int>675</int>
-            <int>710</int>
-            <int>711</int>
-            <int>712</int>
-            <int>713</int>
-            <int>714</int>
-            <int>715</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
-          <combinedComparsionValue>2</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>16</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
-      <minLvl>1</minLvl>
-      <maxLvl>65</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride> Early Monolith Gear (65) - **Add Wanted Affixes**</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1669,28 +1583,6 @@
             <int>713</int>
             <int>714</int>
             <int>52</int>
-            <int>437</int>
-            <int>640</int>
-            <int>536</int>
-            <int>487</int>
-            <int>728</int>
-            <int>729</int>
-            <int>739</int>
-            <int>726</int>
-            <int>596</int>
-            <int>334</int>
-            <int>348</int>
-            <int>660</int>
-            <int>541</int>
-            <int>543</int>
-            <int>387</int>
-            <int>690</int>
-            <int>682</int>
-            <int>709</int>
-            <int>416</int>
-            <int>733</int>
-            <int>503</int>
-            <int>507</int>
             <int>99</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
@@ -1739,7 +1631,7 @@
       <minLvl>4</minLvl>
       <maxLvl>100</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>Weapon Types I don't Want To See **Deselect Weapon Types you want**</nameOverride>
+      <nameOverride>Weapon Types I don't Want To See **Deselect Weapon Types You Want**</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -2754,7 +2646,22 @@
       <type>SHOW</type>
       <conditions>
         <Condition i:type="RarityCondition">
-          <rarity>UNIQUE SET</rarity>
+          <rarity>SET</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE</rarity>
         </Condition>
       </conditions>
       <color>0</color>
