@@ -446,6 +446,7 @@
           <type>
             <EquipmentType>IDOL_3x1</EquipmentType>
             <EquipmentType>IDOL_2x2</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -454,8 +455,11 @@
             <int>166</int>
             <int>174</int>
             <int>176</int>
-            <int>243</int>
+            <int>112</int>
             <int>716</int>
+            <int>129</int>
+            <int>117</int>
+            <int>242</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
