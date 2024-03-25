@@ -4,7 +4,7 @@
   <filterIcon>7</filterIcon>
   <filterIconColor>4</filterIconColor>
   <description>1.0</description>
-  <lastModifiedInVersion>1.0.0.0</lastModifiedInVersion>
+  <lastModifiedInVersion>1.0.4.2</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -118,6 +118,8 @@
             <int>142</int>
             <int>106</int>
             <int>242</int>
+            <int>692</int>
+            <int>190</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>1</comparsionValue>
@@ -160,6 +162,8 @@
             <int>142</int>
             <int>106</int>
             <int>242</int>
+            <int>692</int>
+            <int>190</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>1</comparsionValue>
@@ -2019,29 +2023,6 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>High Value Affixes</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>506</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>7</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>T7 Reduced Mana Cost</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
