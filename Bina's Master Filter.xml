@@ -4,7 +4,7 @@
   <filterIcon>23</filterIcon>
   <filterIconColor>17</filterIconColor>
   <description>BINA'S MASTER FILTER - You **MUST** select Affixes in EIGHT rules. These rules contain **ADD WANTED AFFIXES** in their description. Last updated - Mar 1 2024</description>
-  <lastModifiedInVersion>1.1.1.1</lastModifiedInVersion>
+  <lastModifiedInVersion>1.1.1.2</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -1833,33 +1833,17 @@
             <int>454</int>
             <int>384</int>
             <int>502</int>
-            <int>16</int>
             <int>99</int>
             <int>6</int>
-            <int>721</int>
-            <int>35</int>
             <int>582</int>
-            <int>86</int>
             <int>4</int>
-            <int>670</int>
-            <int>38</int>
             <int>192</int>
-            <int>331</int>
-            <int>34</int>
-            <int>718</int>
-            <int>93</int>
+            <int>507</int>
             <int>36</int>
             <int>489</int>
             <int>382</int>
-            <int>715</int>
             <int>503</int>
             <int>97</int>
-            <int>26</int>
-            <int>433</int>
-            <int>431</int>
-            <int>64</int>
-            <int>102</int>
-            <int>33</int>
             <int>739</int>
             <int>731</int>
             <int>730</int>
@@ -2150,14 +2134,8 @@
             <int>501</int>
             <int>505</int>
             <int>504</int>
-            <int>722</int>
-            <int>719</int>
             <int>52</int>
-            <int>10</int>
             <int>67</int>
-            <int>643</int>
-            <int>14</int>
-            <int>11</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -2266,12 +2244,10 @@
       <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="AffixCondition">
-          <affixes>
-            <int>550</int>
-          </affixes>
+          <affixes />
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
+          <minOnTheSameItem>0</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
           <advanced>false</advanced>
