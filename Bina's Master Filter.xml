@@ -4,7 +4,7 @@
   <filterIcon>23</filterIcon>
   <filterIconColor>17</filterIconColor>
   <description>BINA'S MASTER FILTER - You **MUST** select Affixes in EIGHT rules. These rules contain **ADD WANTED AFFIXES** in their description. Last updated - Mar 1 2024</description>
-  <lastModifiedInVersion>1.1.1.2</lastModifiedInVersion>
+  <lastModifiedInVersion>1.1.2</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -91,7 +91,7 @@
         </Condition>
       </conditions>
       <color>0</color>
-      <isEnabled>true</isEnabled>
+      <isEnabled>false</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
@@ -117,7 +117,7 @@
         </Condition>
       </conditions>
       <color>9</color>
-      <isEnabled>false</isEnabled>
+      <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>1</minLvl>
       <maxLvl>80</maxLvl>
@@ -243,7 +243,7 @@
         </Condition>
       </conditions>
       <color>15</color>
-      <isEnabled>false</isEnabled>
+      <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>1</minLvl>
       <maxLvl>80</maxLvl>
@@ -267,9 +267,6 @@
           <affixes>
             <int>109</int>
             <int>129</int>
-            <int>178</int>
-            <int>328</int>
-            <int>255</int>
             <int>743</int>
           </affixes>
           <comparsion>ANY</comparsion>
@@ -346,7 +343,7 @@
         </Condition>
       </conditions>
       <color>16</color>
-      <isEnabled>false</isEnabled>
+      <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>1</minLvl>
       <maxLvl>85</maxLvl>
@@ -830,10 +827,11 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>319</int>
+            <int>118</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
+          <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
           <advanced>false</advanced>
@@ -1220,9 +1218,6 @@
           <affixes>
             <int>114</int>
             <int>754</int>
-            <int>268</int>
-            <int>265</int>
-            <int>285</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -1804,7 +1799,7 @@
         </Condition>
       </conditions>
       <color>0</color>
-      <isEnabled>false</isEnabled>
+      <isEnabled>true</isEnabled>
       <levelDependent>true</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>80</maxLvl>
@@ -1816,8 +1811,6 @@
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>28</int>
-            <int>27</int>
             <int>676</int>
             <int>677</int>
             <int>678</int>
@@ -1832,18 +1825,9 @@
             <int>714</int>
             <int>454</int>
             <int>384</int>
-            <int>502</int>
-            <int>99</int>
-            <int>6</int>
             <int>582</int>
-            <int>4</int>
             <int>192</int>
-            <int>507</int>
             <int>36</int>
-            <int>489</int>
-            <int>382</int>
-            <int>503</int>
-            <int>97</int>
             <int>739</int>
             <int>731</int>
             <int>730</int>
@@ -1852,16 +1836,12 @@
             <int>727</int>
             <int>519</int>
             <int>662</int>
-            <int>642</int>
             <int>641</int>
             <int>640</int>
             <int>638</int>
             <int>620</int>
-            <int>619</int>
             <int>618</int>
             <int>617</int>
-            <int>616</int>
-            <int>615</int>
             <int>614</int>
             <int>613</int>
             <int>612</int>
@@ -1872,46 +1852,22 @@
             <int>537</int>
             <int>536</int>
             <int>534</int>
-            <int>532</int>
-            <int>530</int>
-            <int>528</int>
             <int>526</int>
-            <int>524</int>
-            <int>521</int>
-            <int>517</int>
             <int>515</int>
             <int>513</int>
             <int>511</int>
-            <int>509</int>
             <int>500</int>
-            <int>498</int>
-            <int>496</int>
-            <int>494</int>
             <int>487</int>
-            <int>485</int>
-            <int>483</int>
-            <int>481</int>
-            <int>479</int>
-            <int>477</int>
-            <int>475</int>
-            <int>473</int>
             <int>471</int>
             <int>469</int>
             <int>468</int>
-            <int>463</int>
-            <int>461</int>
-            <int>459</int>
             <int>457</int>
             <int>453</int>
             <int>451</int>
             <int>449</int>
             <int>448</int>
             <int>446</int>
-            <int>443</int>
-            <int>442</int>
-            <int>440</int>
             <int>439</int>
-            <int>437</int>
             <int>358</int>
             <int>359</int>
             <int>363</int>
@@ -2074,68 +2030,17 @@
             <int>410</int>
             <int>402</int>
             <int>401</int>
-            <int>53</int>
-            <int>339</int>
-            <int>381</int>
-            <int>383</int>
-            <int>385</int>
-            <int>386</int>
-            <int>387</int>
-            <int>388</int>
-            <int>389</int>
-            <int>390</int>
-            <int>391</int>
-            <int>392</int>
-            <int>393</int>
-            <int>394</int>
-            <int>395</int>
-            <int>396</int>
-            <int>398</int>
+            <int>709</int>
+            <int>556</int>
+            <int>550</int>
             <int>399</int>
             <int>400</int>
-            <int>687</int>
-            <int>688</int>
-            <int>690</int>
-            <int>691</int>
-            <int>397</int>
-            <int>546</int>
-            <int>547</int>
-            <int>548</int>
-            <int>549</int>
-            <int>550</int>
-            <int>551</int>
-            <int>552</int>
-            <int>553</int>
-            <int>554</int>
-            <int>556</int>
-            <int>557</int>
-            <int>575</int>
-            <int>584</int>
-            <int>587</int>
-            <int>597</int>
-            <int>598</int>
-            <int>624</int>
-            <int>625</int>
-            <int>628</int>
-            <int>630</int>
-            <int>637</int>
-            <int>593</int>
-            <int>645</int>
-            <int>680</int>
-            <int>681</int>
-            <int>682</int>
-            <int>683</int>
-            <int>684</int>
-            <int>693</int>
-            <int>694</int>
-            <int>695</int>
-            <int>696</int>
-            <int>709</int>
-            <int>501</int>
-            <int>505</int>
-            <int>504</int>
+            <int>388</int>
+            <int>385</int>
+            <int>387</int>
+            <int>339</int>
+            <int>53</int>
             <int>52</int>
-            <int>67</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -2176,7 +2081,7 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>ring and exalted amu</nameOverride>
+      <nameOverride>Exalted Rings and Amulets</nameOverride>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -2260,26 +2165,6 @@
       <maxLvl>100</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Crafting (35-100) - Removal or Shatter **Add Wanted Afffixes**</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>WAND</EquipmentType>
-          </type>
-          <subTypes>
-            <int>9</int>
-          </subTypes>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>false</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride />
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -2767,8 +2652,7 @@
             <int>502</int>
             <int>503</int>
             <int>504</int>
-            <int>50</int>
-            <int>91</int>
+            <int>759</int>
             <int>89</int>
             <int>2</int>
             <int>76</int>
@@ -2803,11 +2687,7 @@
             <int>18</int>
             <int>23</int>
             <int>12</int>
-            <int>9</int>
             <int>16</int>
-            <int>101</int>
-            <int>103</int>
-            <int>58</int>
             <int>72</int>
             <int>5</int>
             <int>36</int>
@@ -2817,11 +2697,9 @@
             <int>74</int>
             <int>81</int>
             <int>3</int>
-            <int>41</int>
             <int>425</int>
             <int>45</int>
             <int>92</int>
-            <int>104</int>
             <int>46</int>
             <int>1</int>
             <int>7</int>
@@ -2832,31 +2710,20 @@
             <int>80</int>
             <int>17</int>
             <int>31</int>
-            <int>65</int>
-            <int>83</int>
-            <int>75</int>
             <int>67</int>
-            <int>82</int>
-            <int>66</int>
             <int>59</int>
             <int>8</int>
             <int>22</int>
             <int>43</int>
             <int>90</int>
-            <int>44</int>
-            <int>20</int>
             <int>382</int>
             <int>29</int>
-            <int>51</int>
             <int>427</int>
             <int>97</int>
             <int>42</int>
-            <int>40</int>
             <int>69</int>
             <int>28</int>
             <int>27</int>
-            <int>95</int>
-            <int>96</int>
             <int>506</int>
             <int>331</int>
             <int>621</int>
@@ -2870,19 +2737,11 @@
             <int>64</int>
             <int>26</int>
             <int>14</int>
-            <int>429</int>
-            <int>428</int>
             <int>341</int>
             <int>86</int>
             <int>11</int>
-            <int>48</int>
-            <int>57</int>
-            <int>94</int>
-            <int>85</int>
             <int>54</int>
             <int>55</int>
-            <int>47</int>
-            <int>56</int>
             <int>60</int>
             <int>68</int>
             <int>571</int>
@@ -2932,48 +2791,20 @@
             <int>402</int>
             <int>401</int>
             <int>384</int>
-            <int>628</int>
-            <int>625</int>
-            <int>624</int>
             <int>99</int>
-            <int>598</int>
             <int>597</int>
-            <int>587</int>
-            <int>584</int>
-            <int>575</int>
-            <int>557</int>
             <int>556</int>
             <int>554</int>
             <int>553</int>
-            <int>552</int>
             <int>551</int>
             <int>550</int>
-            <int>549</int>
-            <int>548</int>
             <int>547</int>
-            <int>546</int>
-            <int>397</int>
-            <int>691</int>
             <int>690</int>
-            <int>688</int>
-            <int>687</int>
             <int>400</int>
             <int>399</int>
-            <int>398</int>
-            <int>396</int>
-            <int>395</int>
-            <int>394</int>
-            <int>393</int>
-            <int>392</int>
-            <int>391</int>
-            <int>390</int>
-            <int>389</int>
             <int>388</int>
             <int>387</int>
-            <int>386</int>
             <int>385</int>
-            <int>383</int>
-            <int>381</int>
             <int>339</int>
             <int>53</int>
             <int>606</int>
@@ -3071,7 +2902,6 @@
             <int>358</int>
             <int>439</int>
             <int>440</int>
-            <int>442</int>
             <int>443</int>
             <int>446</int>
             <int>448</int>
@@ -3149,7 +2979,6 @@
             <int>724</int>
             <int>725</int>
             <int>718</int>
-            <int>437</int>
             <int>631</int>
             <int>639</int>
             <int>652</int>
@@ -3163,15 +2992,8 @@
             <int>646</int>
             <int>660</int>
             <int>661</int>
-            <int>630</int>
             <int>637</int>
-            <int>593</int>
-            <int>645</int>
-            <int>680</int>
-            <int>681</int>
             <int>682</int>
-            <int>683</int>
-            <int>684</int>
             <int>693</int>
             <int>694</int>
             <int>695</int>
@@ -3215,7 +3037,6 @@
             <int>669</int>
             <int>670</int>
             <int>672</int>
-            <int>671</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>7</comparsionValue>
