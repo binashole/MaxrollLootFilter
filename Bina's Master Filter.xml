@@ -565,6 +565,39 @@
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>252</int>
+            <int>254</int>
+            <int>242</int>
+            <int>320</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>Idols - Runemaster Plasma Orb</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
             <EquipmentType>IDOL_3x1</EquipmentType>
             <EquipmentType>IDOL_4x1</EquipmentType>
           </type>
@@ -997,6 +1030,7 @@
             <int>276</int>
             <int>105</int>
             <int>197</int>
+            <int>193</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -1050,6 +1084,7 @@
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_3x1</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -1059,6 +1094,7 @@
             <int>306</int>
             <int>198</int>
             <int>430</int>
+            <int>204</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -1218,6 +1254,7 @@
           <affixes>
             <int>114</int>
             <int>754</int>
+            <int>750</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
